@@ -1,0 +1,13 @@
+{
+  "name": "pantry-pal-alexa-mcp",
+  "version": "1.0.0",
+  "description": "Pantry Pal: a self-hosted MCP server (Streamable HTTP, spec 2025-11-25) that lets Alexa+ track a household pantry, expiry dates, meals and a shopping list.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "alexa", "alexa-plus", "model-context-protocol", "pantry"],
+  "license": "MIT"
+}
